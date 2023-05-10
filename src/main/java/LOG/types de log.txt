@@ -1,0 +1,15 @@
+Les loggers se basent sur des niveaux de sévérité. Sur SLF4J, les niveaux
+sont (du plus au moins sévère) :
+
+● error : une erreur grave, qui nécessite l’arrêt de l’opération en cours, a été
+détectée.
+
+● warn : quelques chose d’inattendu s’est passé. L’opération en cours peut ,
+ou pas, continuer.
+
+● info : une information d’importance ‘normale’ a été loggée.
+
+● debug : une information utile uniquement en cas de bug a été loggée.
+
+● trace : une information a été loggée. Celle-ci peut être loggée au besoin
+mais risque de ‘polluer’ les logs si elle l’est.

@@ -1,0 +1,18 @@
+En BDD, la relation 1:1 sera implémentée de la manière suivante : 
+
+Table Commune : 
+
+|	ID	|	Nom	 |	Id.Maire  |
+|		|		 |			  |
+		
+
+Table Maire : 
+
+|	ID	|	Nom	 |
+|		|		 |			    
+
+
+
+Les clés Id.maire sont des "CLE ETRANGERE" qui correspondent à des PK de la table Maire
+Ce sont des COLONNES DE JOINTURE
+

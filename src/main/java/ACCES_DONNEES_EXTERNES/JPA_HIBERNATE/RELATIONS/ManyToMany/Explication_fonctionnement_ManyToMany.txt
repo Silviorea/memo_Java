@@ -1,0 +1,17 @@
+Pour la relation ManyToMany n:p, on utilise TOUJOURS une table de JOINTURE
+
+
+Table Musicien : 
+
+|	ID	|	Nom	 |	
+|		|		 |			
+								Table Music.Instru
+								
+								|	ID.Mus	|	ID.Instr	|
+Table Instrument : 				|			|				|	
+
+|	ID	|	Nom	 |
+|		|		 |	
+
+
+

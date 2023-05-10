@@ -1,0 +1,23 @@
+Fonctionnement général de JDBC : 
+
+1/ Etablir une connexion avec la BDD
+	URL (num de port)
+	MDP
+	User name
+	
+La connexion s'établie vie le driver de la BDD intégré au projet sous forme de JAR (et son répertoire META-INF/services) 
+et lu via ServiceLoader
+
+Une fois la connexion établie, on récupère un objet de JDBC qui est une implémentation de l'interface "Connection"
+
+
+2 / Recupération des Statement
+On va ensuite pour récupérer 2 types d'objets : 
+	interface Statement
+	interface PreparedStatement
+	
+Ils vont permettre de transporter des requêtes SQL
+
+3/ ResultSet
+Une fois la requête traitée, on récupère la réponse sous forme d'un objet ResultSet
+Fonctionne comme une table

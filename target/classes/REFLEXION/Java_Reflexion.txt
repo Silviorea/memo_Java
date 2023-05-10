@@ -1,0 +1,13 @@
+API REFLEXION est au coeur de nombreux frameworks:
+	Jakarta EE
+	Hibernate
+	Spring
+	Services REST / WEB
+	
+	
+Elle permets de créer des instances de classe sans faire de new via une STRING, 
+en invoquer les méthodes, accéder à ses champs
+
+
+	
+	

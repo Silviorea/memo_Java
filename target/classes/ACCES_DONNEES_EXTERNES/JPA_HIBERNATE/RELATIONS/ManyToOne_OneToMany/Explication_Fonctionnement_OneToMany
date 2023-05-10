@@ -1,0 +1,50 @@
+
+///////////////////////
+// BI DIRECTIONNELLE //
+///////////////////////
+
+Dans une relation OneToMany/ManyToOne, le coté maitre est toujours du coté MULTIVALUEE
+
+1 departement possède plusieurs communes
+1 commune est ratachée à 1 département
+
+En BDD, la relation p:1 sera implémentée de la manière suivante : 
+
+Table Commune : 
+
+|	ID	|	Nom	 |	Id.Dep  |
+|		|		 |			|
+		
+
+Table Dep : 
+
+|	ID	|	Nom	 |
+|		|		 |	
+
+
+
+
+///////////////////////
+//UNI DIRECTIONNELLE //
+///////////////////////
+
+
+La relation 1:p OneToMany Uni Directionnelle est un cas spécifique en JPA car : 
+- en BDD, Commune dépend de Dep pour fonctionner
+- en Java, Departement dépend de List<Commune> pour compiler
+
+Du coup la solution est de créer une TABLE DE LIAISON en BDD : 
+
+
+Table Commune : 
+
+|	ID	|	Nom	 |	
+|		|		 |			
+								Table Dept.Commune
+								
+							|	ID.dept	|	ID.Commune	|
+Table Dep : 				|			|				|	
+
+|	ID	|	Nom	 |
+|		|		 |	
+

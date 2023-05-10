@@ -1,0 +1,5 @@
+Transformer table de jointure en entité
+
+Faire des @ManyToOne de jointure vers les autres entité
+
+Faire relation @OneToMany des entité vers l'entité de Relation

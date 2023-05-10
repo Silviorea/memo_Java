@@ -1,0 +1,37 @@
+JAVA INPUT / OUTPUT
+
+sert a échanger des données avec l'extérieur :
+
+		- 	reseau  :		
+		
+		
+				- WEB via protocole HTTP et l'API SERVLET
+				
+				- BDD
+				
+				- Accès à la mémoire  "off heep" 
+
+
+
+		-	disque dur
+		
+Avec la classe FILE (java 1) et l'interface PATH (java 7)
+
+
+
+4 catégorie de flux modélisés par 4 classes abstraites
+
+			|	TEXTE		|	BINAIRE
+------------|---------------|-----------------
+LECTURE		|	Reader		|	ImputStream
+------------|---------------|-----------------
+ECRITURE	|	Writer		|	OutputStream
+
+		
+		
+		
+Classe ObjectOutputStream est lié au mécanisme de SERIALISATION : 
+Possibilité que JAVA expose d'écrire des objets directement vers des flux
+		
+		
+		
