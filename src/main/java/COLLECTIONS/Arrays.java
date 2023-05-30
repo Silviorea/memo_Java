@@ -50,10 +50,10 @@ public class Arrays {
 	
 	
 	 // Tableau a deux dimensions
-    int [][] tab2Dim = new int [5][2];
+    int [][] tab2Dim = new int [5][];
     tab2Dim[0][0] = 1;
     tab2Dim[0][1] = 2;
-    tab2Dim[0][2] = 3;
+    tab2Dim[0][1] = 3;
     tab2Dim[1][0] = 4;
      
     
@@ -64,11 +64,11 @@ public class Arrays {
     System.out.println(tab2Dim[0].length);
     
     // Parcours du tableau pour afficher le contenu.
-    for (int [] ligne : tab2Dim)
+    for (int [] colonne : tab2Dim)
     {
-        for (int colonne : ligne)
+        for (int ligne : colonne)
         {
-            System.out.println(colonne);
+            System.out.println(ligne);
         }
     }
 	

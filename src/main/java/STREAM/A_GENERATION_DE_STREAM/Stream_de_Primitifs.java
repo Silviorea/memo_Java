@@ -12,6 +12,10 @@ public class Stream_de_Primitifs {
 		
 	// STREAM DE NOMBRE //
 		
+		// Avec la classe INTSTREAM : 
+		
+		IntStream intStream = IntStream.of(5);
+		
 		
 		
 		// Avec la CLASSE RANDOM:

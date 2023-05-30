@@ -9,7 +9,7 @@ public class STRINGS_methods {
 		
 		
 		
-		String substring = myString.substring(2, 5); 			//<= Extrait la string a partir du Param1 (inclu)
+		String substring = myString.substring(2, 5); 			 //<= Extrait la string a partir du Param1 (inclu)
 		System.out.println("Substring : " + substring);			 //    jusqu'au Param2 (exclu)
 		
 		

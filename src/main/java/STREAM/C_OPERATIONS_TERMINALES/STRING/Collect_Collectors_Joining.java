@@ -18,7 +18,7 @@ public class Collect_Collectors_Joining {
 		
 		
 		// Joining avec 1 paramètre => caractère de séparation
-		// Joining avec 1 paramètre => caractère de séparation + caractère de début + de fin
+		// Joining avec 3 paramètres => caractère de séparation + caractère de début + de fin
 		
 		String joinedString = myList.stream()
 		                        .collect(Collectors.joining(" // ", "{", "}"));

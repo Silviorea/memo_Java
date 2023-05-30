@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 // SORTED = TRI LES ELEMENTS DU STREAM
 
 
-public class Distinct {
+public class Distinct_Sorted {
 
 	public static void main(String[] args) {
 
