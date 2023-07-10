@@ -1,0 +1,23 @@
+Les classes JLabel et JPanel sont toutes deux des composants graphiques 
+de la bibliothèque Swing en Java, mais elles ont des fonctionnalités et 
+des utilisations différentes.
+
+JLabel : La classe JLabel est utilisée pour afficher du texte ou une image 
+dans une interface graphique. Elle est principalement utilisée pour afficher 
+des étiquettes, des titres, des descriptions ou d'autres informations textuelles 
+dans une interface utilisateur. Un JLabel peut contenir du texte, une image ou les deux. 
+Il est souvent utilisé comme composant d'interface utilisateur statique, 
+car il ne permet pas d'interaction directe avec l'utilisateur.
+
+JPanel : La classe JPanel est un conteneur générique utilisé pour regrouper 
+et organiser d'autres composants graphiques. Il peut contenir différents types 
+de composants tels que des boutons, des champs de saisie, des étiquettes, etc. 
+JPanel est souvent utilisé pour créer des sections ou des zones dans une interface 
+utilisateur, et il peut être utilisé pour créer des mises en page complexes en utilisant 
+des gestionnaires de mise en page tels que FlowLayout, BorderLayout, GridBagLayout, etc. 
+JPanel peut également être utilisé pour dessiner des graphiques personnalisés 
+en redéfinissant la méthode paintComponent.
+
+En résumé, JLabel est utilisé pour afficher du texte ou des images statiques, 
+tandis que JPanel est utilisé comme un conteneur flexible pour organiser d'autres 
+composants graphiques et pour créer des mises en page complexes.

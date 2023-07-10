@@ -1,0 +1,17 @@
+Pour dessiner dans un JPanel, on utilise la classe Graphics.
+
+On peut dessiner des formes (segments, rectangles, ellipses, ...)
+
+On peut écrire du texte avec des caractéristiques particuliéres.
+
+On peut dessiner une image.
+
+La méthode de référence pour dessiner est "paintComponent (Graphics g)".
+Cette méthode est appelée automatiquement une seule fois à la création de la fenétre.
+On peut la rappeler quand on veut dans notre programme avec l'instruction "repaint()".
+
+Pour dessiner dans une méthode quelconque, il suffit d'accéder à l'objet Graphics
+associé au Conteneur de la fenétre en ajoutant å Itintérieur de la méthode Itinstruction
+Graphics g = getGraphics();
+
+Avec TIMER, on peut répéter une suite d'instruction pour créer un dessin animé

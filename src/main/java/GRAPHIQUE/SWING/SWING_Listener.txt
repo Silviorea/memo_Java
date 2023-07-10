@@ -1,0 +1,11 @@
+Pour que notre application soit interactive, il faut créer une interface, c'est-å-dire qu'il
+faut ajouter des écouteurs d'événements aux composants qui doivent réagir aux actions
+utilisateur.
+
+II faut faire de méme avec la souris et le clavier si on veut les "écouter".
+
+Les boutons et les champs de texte utilisent la classe ActionListener.
+
+La souris utilise la classe MouseListener.
+
+Le clavier utilise la classe KeyListener.

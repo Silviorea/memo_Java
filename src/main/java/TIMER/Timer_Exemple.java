@@ -11,7 +11,7 @@ import java.util.TimerTask;
  * soit de manière itérative (par exemple chaque seconde)
  * soit de manière temporisée (après un certain temp)
  * 
- * Paramètre 1 = Instance de TimerTask. tache a acomplire 
+ * Paramètre 1 = Instance de TimerTask. tache a accomplir 
  * Paramètre 2 = delay de démarrage
  * Paramètre 3 = délay entre chaque répétition 
  * 
@@ -27,7 +27,7 @@ public class Timer_Exemple {
 		
 		System.out.println("Début du programme : ");
 		
-		Timer chrono = new Timer();
+		Timer chrono = new Timer();			// TIMER JAVA UTIL
 		
 		
 		chrono.schedule(new MyTaskToTimer(),

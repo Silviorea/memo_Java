@@ -54,7 +54,7 @@ public class ConteneurFenetre extends JLabel implements ActionListener, MouseLis
 		// on utilise pas de Layout
 		this.setLayout(null);
 		
-		// On ajoute l'étiquette au conteneur
+		// On ajoute les champs au conteneur
 		this.proprieteText();
 		this.proprieteBouton();
 		this.proprieteChampText();
@@ -149,7 +149,7 @@ public class ConteneurFenetre extends JLabel implements ActionListener, MouseLis
 		
 		
 		
-		// Methode de l'interface ActionListener qui définit L'ACTION de l'ActionListener
+////////// Methode de l'interface ActionListener qui définit L'ACTION de l'ActionListener
 		
 		@Override
 		public void actionPerformed(ActionEvent event) {
@@ -177,7 +177,7 @@ public class ConteneurFenetre extends JLabel implements ActionListener, MouseLis
 		
 		
 		
-		// Methodes de l'interface MouseListener qui définit L'ACTION du MouseListener
+////////// Methodes de l'interface MouseListener qui définit L'ACTION du MouseListener
 		// On va juste utiliser mousePressed pour l'exemple
 		
 		@Override
@@ -215,11 +215,7 @@ public class ConteneurFenetre extends JLabel implements ActionListener, MouseLis
 		
 		
 		
-		
-		
-		
-		
-		// Methodes de l'interface KeyListener qui définit L'ACTION du KeyListener
+////////// Methodes de l'interface KeyListener qui définit L'ACTION du KeyListener
 		// On va juste utiliser mousePressed pour l'exemple
 		
 		@Override
