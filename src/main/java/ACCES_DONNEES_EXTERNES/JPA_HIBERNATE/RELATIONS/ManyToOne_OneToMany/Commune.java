@@ -18,7 +18,7 @@ public class Commune {
 	
 	// Dans cette relation, commune est le coté maitre car c'est cette table qui possède la colonne de jointure
 	
-	//@ManyToOne//(fetch=FetchType.EAGER / LAZY, cascade=CascadeType.PERSIST)
+	@ManyToOne //(fetch=FetchType.EAGER / LAZY, cascade=CascadeType.PERSIST)
 	@JoinColumn(name="departement_id")
 	private Departement departement;
 

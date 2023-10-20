@@ -11,13 +11,13 @@ public class MapToObj {
 
 	public static void main(String[] args) {
 
-		IntStream myIntStream = new Random().ints(1, 2, 9);
+		IntStream myIntStream = new Random().ints(3);
 		
 		Stream <String> myNewStream =  
 				myIntStream.mapToObj( myInt -> "Bonjour");	// <= Va transformer tous les int en Bonjour
 		
 
-
+		myNewStream.forEach(System.out::println);
 	}
 
 }

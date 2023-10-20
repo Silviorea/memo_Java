@@ -26,8 +26,8 @@ public class Distinct_Sorted {
 		
 		// Sorted sans comparator
 		
-		Stream<String> myStream2 = 
-				Stream.of("one", "two", "three", "one")
+		Stream<Integer> myStream2 = 
+				Stream.of(2, 4, 5,1,2,6,3)
 				.sorted();										// les éléments seront triés par ordre alphabétique
 
 		
@@ -42,5 +42,7 @@ public class Distinct_Sorted {
 		
 		
 	}
+	
+	
 
 }
