@@ -85,7 +85,13 @@ public class Hashmap_TreeMap {
 		
 		
 		
+		Map <String, String> test = new HashMap<>();
+		test.put("nom", "REA");
+		test.put("prenom", "SILVIO");
+		test.put("age", "37");
 		
+		System.out.println(test);
+	
 		
 		
 		

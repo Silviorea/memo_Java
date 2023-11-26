@@ -1,6 +1,8 @@
 package LAMBDA_EXPRESSION.COMPARATOR;
 
+import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.List;
 import java.util.function.Function;
 
 import LAMBDA_EXPRESSION.COMPARATOR.model.User;
@@ -60,7 +62,7 @@ public class Comparator_exemple {
 		 
 		 // La fonction que je vais utiliser dans le comparator va se focus sur le NOM et sur l'AGE
 		 Function<User, String> compareByName = myUser -> myUser.getName();
-		 Function<User, Integer> compareByAge = myUser -> myUser.getAge();
+		 Function<User, Integer> compareByAge = User::getAge;
 		 
 		 // Je passe la Function  en paramètre de la méthode COMPARING
 		 Comparator<User> nameComparator = Comparator.comparing(compareByName);

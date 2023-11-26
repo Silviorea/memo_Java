@@ -85,34 +85,14 @@ public class User {
 			return user;
 		}
 		
-		
-//		public User build()
-//		{
-//			
-//			return new User(this);
-//		}
-//		
-//		
-//
-//		public UserBuilder(Integer id) {
-//			this.id = id;
-//		}
-//
-//		
-		
-		
-	
-		
-		
-		
 	}
 	
-//	
-//	private User(UserBuilder userBuilder)  {
-//		id = userBuilder.id;
-//	}
-//
 
+	
+	
+	
+	
+	
 	
 	public String getFirstName() {
 		return firstName;

@@ -27,7 +27,5 @@ public class Main {
 		
 		System.out.println(user1.getPhone());
 		System.out.println(user1.getAddress());
-		
 	}
-
 }

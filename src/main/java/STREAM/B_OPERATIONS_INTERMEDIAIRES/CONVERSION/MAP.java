@@ -17,6 +17,7 @@ public class MAP {
 		
 		Stream <Integer> myStream = 
 				Stream.of("one", "two", "three")
+				
 				.map( s -> s.length() );
 		
 	}
