@@ -1,6 +1,7 @@
 package COLLECTIONS;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.TreeMap;
@@ -16,9 +17,14 @@ public class Hashmap_TreeMap {
 	
 	public static void main(String[] args) {
 		
-		Map <String, Persons> agentList = new HashMap<>();
-		Map <String, Persons> agentList2 = new TreeMap<>();
+		// Déclaration de map simple
+		
+		Map<String, Persons> agentList = new HashMap<>();
 		Map<Integer, String> simpleMap	= new HashMap<>();
+
+		// Déclaration de map complexe
+		Map<Map<String, Integer>, Map<Double, Boolean>> myMap = new HashMap<>();
+		
 		
 		
 		// METHODES Avec MAP SIMPLE
@@ -37,7 +43,7 @@ public class Hashmap_TreeMap {
 // Remplace la valeur si clé existe déja
 		simpleMap.replace(1, "PAPA");
 		
-// 3ème paramètre remplace le 2 si ce dernier est biezn associé à la clé
+// 3ème paramètre remplace le 2 si ce dernier est bien associé à la clé
 		simpleMap.replace(2, "Delphine", "MAMAN");
 		
 // Supprime la paire clé valeur
@@ -64,7 +70,8 @@ public class Hashmap_TreeMap {
 		simpleMap.values();
 		
 // Retourne toutes les paires CLE/VALEUR
-		simpleMap.entrySet();
+		System.out.println("EntrySet : " + simpleMap.entrySet());
+		
 		
 		
 		
@@ -73,34 +80,15 @@ public class Hashmap_TreeMap {
 		
 		for (Entry<Integer, String> loop : simpleMap.entrySet()) {
 			
-			loop.getKey();
-			loop.getValue();
+			System.out.println("getKey : " + loop.getKey());
+			System.out.println("getValue : " + loop.getValue());
 			loop.setValue("nouvelle valeur");
 			
 			Entry.comparingByKey();     // <= Possibilité d'ajouter un COMPARATOR en paramètre
 			Entry.comparingByValue();	//
-
 		}
 		
-		
-		
-		
-		Map <String, String> test = new HashMap<>();
-		test.put("nom", "REA");
-		test.put("prenom", "SILVIO");
-		test.put("age", "37");
-		
-		System.out.println(test);
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
+		System.out.println(Math.round(1.5));
 		
 		
 //		// Ajout d'une paire clé valeur
